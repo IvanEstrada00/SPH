@@ -71,7 +71,7 @@ public class SPH : MonoBehaviour
 
         SpawnParticlesInBox(); // Spawn Particles
 
-        // Setup Args for Instanced Particle Rendering
+        // Configuración de Argumentos para el Renderizado Instanciado de Partículas
         uint[] args = {
             particleMesh.GetIndexCount(0),
             (uint)totalParticles,
