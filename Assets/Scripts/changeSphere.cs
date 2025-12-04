@@ -3,17 +3,18 @@ using UnityEngine.UI;
 
 public class ChangeCollisionObject : MonoBehaviour
 {
+/*
     [Header("Referencias")]
-    public SPH sphScript; // Arrastra aquí el objeto que tiene el script SPH
+    public SPH sphScript; // Arrastra aquÃ­ el objeto que tiene el script SPH
     public Transform esfera1;
     public Transform esfera2;
-    public Button botonCambiar; // Arrastra aquí tu botón UI
+    public Button botonCambiar; // Arrastra aquÃ­ tu botÃ³n UI
 
     private bool usandoEsfera1 = true;
 
     void Start()
     {
-        // Asignar la función al botón
+        // Asignar la funciÃ³n al botÃ³n
         if (botonCambiar != null)
         {
             botonCambiar.onClick.AddListener(CambiarEsfera);
@@ -43,14 +44,6 @@ public class ChangeCollisionObject : MonoBehaviour
         }
 
         usandoEsfera1 = !usandoEsfera1;
-    }
-
-    // OPCIONAL: Si quieres usar una tecla en lugar de botón UI
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            CambiarEsfera();
-        }
-    }
+    }*/
+    
 }
