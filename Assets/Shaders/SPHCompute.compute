@@ -1,6 +1,6 @@
-#pragma kernel Integrate // Use the force of each particle to move particle
-#pragma kernel ComputeForces // Compute forces for each particle
-#pragma kernel ComputeDensityPressure // Compute density/pressure for each particle
+#pragma kernel Integrate // Usa la fuerza de cada partícula para mover la partícula
+#pragma kernel ComputeForces // Calcula las fuerzas para cada partícula
+#pragma kernel ComputeDensityPressure // Calcula la densidad/presión para cada partícula
 
 struct Particle {
     float pressure;
@@ -12,7 +12,7 @@ struct Particle {
 
 RWStructuredBuffer<Particle> _particles;
 
-// Variable Declarations 
+// Declaraciones de Variables
 
 float particleMass;
 float viscosity;
